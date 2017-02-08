@@ -1,0 +1,17 @@
+body {
+    background-image: url("../images/Plan_Tastic_Clock.png");
+    background-size: 150%;
+    background-position: -130px -150px;
+    background-repeat: no-repeat;
+}
+
+.login_logo {
+    position: static;
+    width: 390px;
+    margin: 0px 0px 0px -140px;
+}
+
+.col-md-4 col-md-offset-4 {
+    position: static;
+    padding-top: 380px;
+}

@@ -1,0 +1,170 @@
+/* FullCalendar Styles + Media Queries */ 
+ #calendar{
+      width: 900px;
+      margin: 0 auto;
+    }
+   
+.fc .fc-toolbar>*>:first-child {
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+.fc-unthemed td.fc-today{
+      background-color: #bce8f1;
+    }
+.fc-widget-content{
+      border-color: rgba(0,0,0,.1);
+    }    
+
+/* tablets and desktop */
+@media only screen and (min-width: 768px) {
+    .fc-scroller{
+      overflow-x: scroll !important;
+      overflow-y: scroll !important;
+    }
+    #calendar{
+      width: 600px;
+      margin: 0 auto;
+    }
+    .fc-header-toolbar {
+      width: 885px;
+    }
+    .fc-toolbar .fc-center{
+      display: inline;
+      
+    }
+    .fc-left{
+      height: 30px;
+      width: 50px;
+    }
+    .fc-right{
+      height: 30px;
+      width: 50px;
+    }
+    .fc-next-button, .fc-button, .fc-state-default, .fc-corner-left, .fc-corner-right{
+      height: 18px;
+      padding-left: 2px;
+      padding-right: 2px;
+      border-right-width: .5;
+      border-left-width: .5;
+      border-top-width: .5;
+      border-bottom-width: .5;
+    }
+    .fc-prev-button, .fc-button, .fc-state-default, .fc-corner-left, .fc-corner-right{
+      height: 18px;
+      padding-left: 2px;
+      padding-right: 2px;
+      border-right-width: .5;
+      border-left-width: .5;
+      border-top-width: .5;
+      border-bottom-width: .5;
+    }
+    .fc .fc-toolbar>*>:first-child {
+    margin-left: 30px;
+    margin-right: 10px; 
+    }
+    .fc-center {
+      font-size: 28px;
+      margin-right: 10px;
+    }
+    #calendar .fc-agenda-view{
+      width: 100%;
+    }
+    .fc-unthemed td.fc-today{
+      background-color: #bce8f1;
+    }
+    .fc-widget-content{
+      border-color: rgba(0,0,0,.1);
+    }    
+}
+
+/* PHONES */
+@media only screen and (max-width: 767px) {
+    .fc-scroller{
+      overflow-x: scroll !important;
+      overflow-y: scroll !important;
+    }
+    #calendar{
+      width: 550px;
+      margin: 0 auto;
+    }
+    .fc-header-toolbar {
+      width: 650px;
+    }
+    .fc-toolbar .fc-center{
+      display: inline;
+      
+    }
+    .fc-icon .fc-icon-left-single-arrow .fc-icon-right-single-arrow {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .fc-left{
+      height: 20px;
+      width: 50px;
+    }
+    .fc-right{
+      height: 20px;
+      width: 50px;
+    }
+    .fc-next-button, .fc-button, .fc-state-default, .fc-corner-left, .fc-corner-right{
+      left: 0px;
+      margin-left: 0px;
+      height: 18px;
+      padding-left: 0px;
+      padding-right: 0px;
+      border-right-width: .5;
+      border-left-width: .5;
+      border-top-width: .5;
+      border-bottom-width: .5;
+    }
+    .fc-prev-button, .fc-button, .fc-state-default, .fc-corner-left, .fc-corner-right{ 
+      height: 18px;
+      padding-left: 0px;
+      padding-right: 0px;
+      border-right-width: .5;
+      border-left-width: .5;
+      border-top-width: .5;
+      border-bottom-width: .5;
+    }
+    .fc-corner-right{
+      right:30px;
+    }
+    .fc-toolbar h2{
+      font-size: 18px;
+    }
+    #calendar .fc-agenda-view{
+      width: 72%;
+    }
+    .fc-unthemed td.fc-today{
+      background-color: #bce8f1;
+    }
+    .fc-widget-content{
+      border-color: rgba(0,0,0,.1);
+    }     
+}
+
+/* portrait phones */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .fc-scroller{
+      overflow-x: scroll !important;
+      overflow-y: scroll !important;
+    }
+    #calendar{
+      width:400px;
+      margin: 0 auto;
+    }
+    .fc-view-container{
+      width: 260px;
+    }
+    #calendar .fc-agenda-view{
+      width: 100%;
+    }
+    .fc-unthemed td.fc-today{
+      background-color: #bce8f1;
+    }
+    .fc-widget-content{
+      border-color: rgba(0,0,0,.1);
+    }    
+}

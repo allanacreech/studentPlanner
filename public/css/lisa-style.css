@@ -1,0 +1,169 @@
+/* BODY STYLES */
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 28px;
+  margin-left: 8px;
+  height: 20px; 
+  color: #2c3c51;
+}
+
+h2, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* FC-STYLES */
+
+#calendar{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#external-events{
+    margin-right: 0;
+    float: left;
+}
+
+#external-events .fc-event{
+ display: inline-block; 
+ font-size: 14px;
+ width: 5.5em;
+ text-align: center;
+ padding: 2px;
+ margin-right: 2px;
+ 
+
+}
+
+.fc-header-toolbar{
+z-index: -1;
+height: 25px;
+padding-bottom: 1em;
+}
+
+.fc-toolbar h2{
+   font-family: 'Roboto', sans-serif;
+   color: slategray;
+   font-size: 36px;
+}
+
+.fc-state-default{
+    background-color: rgba(0,0,0,.0001);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.0001)));
+}
+
+.fc-unthemed td.fc-today{
+      background-color: #bce8f1;
+    }
+
+
+#drag-event{
+    font-size: 22px;
+}
+#trash{
+    margin-left: 125px;
+}
+
+/* FC-DRAGGABLE-EVENTS */ 
+
+#work {
+font-family: 'Roboto', sans-serif;  
+text-align: center;
+margin-bottom: 5px;
+background-color: #1080b2; 
+border: #e2e2e2;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+#exercise{
+font-family: 'Roboto', sans-serif;  
+text-align: center;
+margin-bottom: 5px;
+background-color: #ff1e40; 
+border: #e2e2e2;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+} 
+
+#sleep{
+font-family: 'Roboto', sans-serif;  
+text-align: center;
+margin-bottom: 5px;
+background-color: #673ab7; 
+border: #e2e2e2;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+#homework{
+font-family: 'Roboto', sans-serif;  
+text-align: center;
+margin-bottom: 5px;
+background-color: #9ae0ff; 
+border: #e2e2e2;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+} 
+
+#eat{
+font-family: 'Roboto', sans-serif;  
+text-align: center;
+margin-bottom: 5px;
+background-color: fuchsia; 
+border: #e2e2e2;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}  
+
+#commute{
+font-family: 'Roboto', sans-serif;  
+text-align: center;
+margin-bottom: 5px;
+background-color: coral; 
+border: #e2e2e2;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.activites{
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar-header h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    a.dropdown-toggle{
+        margin-top: 40px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-bottom: 15px;
+    }
+    a.navbar-toggle{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    button.navbar-toggle{
+        right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+      .navbar-header h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    a.dropdown-toggle{
+        margin-top: 40px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 12px;
+        padding-bottom: 15px;
+    }
+    a.navbar-toggle{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    button.navbar-toggle{
+        right: 20px;
+    }
+}
